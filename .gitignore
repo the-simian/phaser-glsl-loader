@@ -1,8 +1,8 @@
 .DS_Store
-Thumbs.db
-db.json
-debug.log
-
-
-node_modules/
-artifacts/
+*.log
+node_modules
+build
+*.node
+components
+coverage
+plato

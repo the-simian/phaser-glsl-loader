@@ -4,7 +4,8 @@
   "description": "A shader loader for webpack that allows you to keep your glsl files external when working in phaser.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test"
+    "test": "gulp ci",
+    "coveralls": "gulp coveralls"
   },
   "repository": {
     "type": "git",
@@ -28,7 +29,14 @@
     "lodash": "^3.6.0"
   },
   "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-coveralls": "^0.1.3",
+    "gulp-istanbul": "^0.7.0",
+    "gulp-mocha": "^2.0.0",
+    "gulp-plato": "^1.0.2",
     "mocha": "^2.2.1",
+    "mocha-lcov-reporter": "0.0.2",
+    "run-sequence": "^1.0.2",
     "webpack": "^1.7.3"
   }
 }
