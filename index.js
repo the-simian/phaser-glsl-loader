@@ -19,15 +19,15 @@ function toStrings(line) {
 
 function glFragmentLoader(source) {
   this.cacheable && this.cacheable();
-
+  
   var sourceArray = source.split('\n');
-
+  
   var cleanData = _(sourceArray)
     .map(toCleanStrings)
     .filter(emptyStuff)
     .map(toStrings)
     .value();
-
+  
   return 'module.exports=[' + cleanData + '];';
 }
 
