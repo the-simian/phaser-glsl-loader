@@ -6,6 +6,10 @@
 
 [![Code Climate](https://codeclimate.com/github/the-simian/phaser-glsl-loader/badges/gpa.svg)](https://codeclimate.com/github/the-simian/phaser-glsl-loader)
 
+
+[![David-Dm](https://david-dm.org/the-simian/phaser-glsl-loader.svg)](https://david-dm.org/the-simian/phaser-glsl-loader)
+
+
 This is a simple GLSL loader that is meant to work with Phaser and Webpack.
 
 
