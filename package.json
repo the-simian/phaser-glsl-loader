@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/the-simian/phaser-glsl-loader/issues"
   },
-  "homepage": "https://github.com/the-simian/phaser-glsl-loader"
+  "homepage": "https://github.com/the-simian/phaser-glsl-loader",
+  "dependencies": {
+    "lodash": "^3.6.0"
+  }
 }
