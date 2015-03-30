@@ -28,6 +28,7 @@
     "lodash": "^3.6.0"
   },
   "devDependencies": {
-    "mocha": "^2.2.1"
+    "mocha": "^2.2.1",
+    "webpack": "^1.7.3"
   }
 }
