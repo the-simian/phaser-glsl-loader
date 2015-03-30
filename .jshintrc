@@ -22,8 +22,6 @@
   "white": true,
   "globals": {
     "_": true,
-    "$": true,
-    "angular": true,
     "describe": true,
     "beforeEach": true,
     "afterEach": true,
@@ -34,6 +32,5 @@
     "inject": true,
     "alert": true,
     "require": true,
-    "SRS4": true
   }
 }
