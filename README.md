@@ -1,5 +1,12 @@
 #Phaser GLSL Loader
 
+[![Coverage Status](https://coveralls.io/repos/the-simian/phaser-glsl-loader/badge.svg)](https://coveralls.io/r/the-simian/phaser-glsl-loader)
+
+This is a simple GLSL loader that is meant to work with Phaser and Webpack.
+
+
+##The Problem:
+
 Lets say you're working in phaser, and you see a really cool looking fragment shader you want to use.
 
 ![Some cool shader](http://i.imgur.com/1xys0Iy.png)
@@ -70,6 +77,8 @@ var fragmentSrc = require('../shaders/cubething.frag'),
 ```
 
 You could cut all that code out into a simple require statement! That is what this loader is for.
+
+## The Solution
 
 First, you need to add the loader to your list of loaders, most likely in your `webpack.config.js` file.
 
