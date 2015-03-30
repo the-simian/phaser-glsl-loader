@@ -104,7 +104,7 @@ module.exports = {
   }
 };
 ```
-Then you'll be able to reference external files, instead of basically including a large disgusting array of strings!
+Then you'll be able to reference external files, instead of basically including a large array of strings!
 
 
 
