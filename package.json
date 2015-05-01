@@ -1,6 +1,6 @@
 {
   "name": "phaser-glsl-loader",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A shader loader for webpack that allows you to keep your glsl files external when working in phaser.",
   "main": "index.js",
   "scripts": {
