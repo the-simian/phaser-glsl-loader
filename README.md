@@ -93,8 +93,8 @@ First, you need to add the loader to your list of loaders, most likely in your `
 Something like this:
 
 ```js
-
-var glFragmentLoader = require('phaser-glsl-loader')
+var path = require('path');
+var glFragmentLoader = path.join(__dirname, '/node_modules/phaser-glsl-loader');
 
 module.exports = {
   module: {
