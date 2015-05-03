@@ -1,6 +1,6 @@
 {
   "name": "phaser-glsl-loader",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A shader loader for webpack that allows you to keep your glsl files external when working in phaser.",
   "main": "index.js",
   "scripts": {
@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/the-simian/phaser-glsl-loader",
   "dependencies": {
-    "lodash": "3.7.x"
+    "lodash": "3.8.x"
   },
   "devDependencies": {
     "chai": "2.x.x",
@@ -36,7 +36,6 @@
     "gulp-mocha": "2.x.x",
     "gulp-plato": "1.x.x",
     "mocha": "2.2.x",
-    "mocha-lcov-reporter": "*",
     "run-sequence": "1.x.x",
     "webpack": "1.x.x"
   }
