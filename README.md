@@ -1,4 +1,4 @@
-#Phaser GLSL Loader
+# Phaser 2 GLSL Loader
 
 [![Build Status](https://travis-ci.org/the-simian/phaser-glsl-loader.svg)](https://travis-ci.org/the-simian/phaser-glsl-loader)
 
@@ -10,10 +10,12 @@
 [![David-Dm](https://david-dm.org/the-simian/phaser-glsl-loader.svg)](https://david-dm.org/the-simian/phaser-glsl-loader)
 
 
-This is a simple GLSL loader that is meant to work with Phaser and Webpack.
+This is a simple GLSL loader that is meant to work with Phaser 2 and Webpack 1.x.x.
 
+## IMPORTANT: IF YOU ARE USING PHASER 3, this isn't for you.
+Check out my other project [create-phaser-app](https://github.com/simiancraft/create-phaser-app) for up-to-date phaser 3 tooling
 
-##The Problem:
+## The Problem:
 
 Lets say you're working in phaser, and you see a really cool looking fragment shader you want to use.
 
